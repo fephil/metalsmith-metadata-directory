@@ -20,7 +20,9 @@ This plugin supports selecting a directory of `.json` files using a globbing pat
 
 ## Installation
 
+```
 $ npm install metalsmith-metadata-directory --save-dev
+```
 
 ## CLI Usage
 
@@ -39,8 +41,8 @@ Install the plugin using npm, and simply specify the directory you want to use, 
 ## Javascript Usage
 
 ```js
-var Metalsmith = require('metalsmith');
-var metadata = require('metalsmith-metadata-directory');
+var Metalsmith = require('metalsmith')
+var metadata = require('metalsmith-metadata-directory')
 
 metalsmith.use(metadata({
   directory: '/src/data/**/*.json'

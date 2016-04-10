@@ -3,9 +3,6 @@
   "version": "0.0.1",
   "description": "A Metalsmith plugin to add a directory of JSON files for use in templates and pages",
   "main": "lib/index.js",
-  "scripts": {
-    "test": "mocha"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fephil/metalsmith-metadata-directory.git"
