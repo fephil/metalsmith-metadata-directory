@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/fephil/metalsmith-metadata-directory.svg?branch=master)](https://travis-ci.org/fephil/metalsmith-metadata-directory)
 [![Dependency Status](https://david-dm.org/fephil/metalsmith-metadata-directory.svg)](https://david-dm.org/fephil/metalsmith-metadata-directory)
 
-**A Metalsmith plugin to add a directory of JSON files for easy use in templates and pages**
+**A Metalsmith plugin to add a directory of JSON files for use in templates and pages**
 
 * Author: [Phil Lennon](https://frontendphil.com)
 * Source: [github.com/fephil/foley](https://github.com/fephil/foley)
