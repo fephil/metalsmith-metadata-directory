@@ -17,9 +17,11 @@
   },
   "homepage": "https://github.com/fephil/metalsmith-metadata-glob#readme",
   "devDependencies": {
+    "debug": "^2.2.0",
     "metalsmith": "^2.1.0",
     "mocha": "^2.4.5"
   },
   "dependencies": {
+    "path": "^0.12.7"
   }
 }
