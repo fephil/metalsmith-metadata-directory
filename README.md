@@ -17,3 +17,5 @@
 ## About
 
 **NOT READY FOR USE**
+
+`DEBUG=metalsmith-metadata-glob gulp metalsmith`
