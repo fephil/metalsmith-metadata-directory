@@ -1,9 +1,9 @@
-# metalsmith-metadata-directory v0.x.x
+# metalsmith-metadata-directory v0.0.1
 
 [![Build Status](https://travis-ci.org/fephil/metalsmith-metadata-directory.svg?branch=master)](https://travis-ci.org/fephil/metalsmith-metadata-directory)
 [![Dependency Status](https://david-dm.org/fephil/metalsmith-metadata-directory.svg)](https://david-dm.org/fephil/metalsmith-metadata-directory)
 
-**Add a directory of JSON files for easy use in Metalsmith**
+**A Metalsmith plugin to add a directory of JSON files for easy use in templates and pages**
 
 * Author: [Phil Lennon](https://frontendphil.com)
 * Source: [github.com/fephil/foley](https://github.com/fephil/foley)
@@ -16,6 +16,47 @@
 
 ## About
 
-**NOT READY FOR USE**
+This plugin supports selecting a directory of `.json` files using a globbing pattern and makes their contents available to Metalsmiths global metadata. Subdirectories and multiple files are supported.
 
-`DEBUG=metalsmith-metadata-glob gulp metalsmith`
+## Installation
+
+$ npm install metalsmith-metadata-directory --save-dev
+
+## CLI Usage
+
+Install the plugin using npm, and simply specify the directory you want to use, along with a globbing pattern.
+
+```json
+{
+  "plugins": {
+    "metalsmith-metadata-directory": {
+      "directory": "/src/data/**/*.json",
+    }
+  }
+}
+```
+
+## Javascript Usage
+
+```js
+var Metalsmith = require('metalsmith');
+var metadata = require('metalsmith-metadata-directory');
+
+metalsmith.use(metadata({
+  directory: '/src/data/**/*.json'
+}));
+```
+
+## Usage within Metalsmith
+
+Data is called by referencing the filename without an extension. If there was a global.json file and Handlebars, the reference in your page or template would look like:
+
+```js
+{{global.url}}
+```
+
+My workflow [Foley](https://github.com/fephil/foley) has an example of this plugin being used.
+
+## Licence
+
+MIT

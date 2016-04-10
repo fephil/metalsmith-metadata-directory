@@ -1,7 +1,7 @@
 {
   "name": "metalsmith-metadata-directory",
   "version": "0.0.1",
-  "description": "Add a directory of JSON files for easy use in Metalsmith",
+  "description": "A Metalsmith plugin to add a directory of JSON files for easy use in templates and pages",
   "main": "lib/index.js",
   "scripts": {
     "test": "mocha"
@@ -16,8 +16,15 @@
     "url": "https://github.com/fephil/metalsmith-metadata-directory/issues"
   },
   "homepage": "https://github.com/fephil/metalsmith-metadata-directory#readme",
+  "keywords": [
+    "metalsmith",
+    "data",
+    "json",
+    "glob",
+    "templates",
+    "pages"
+  ],
   "devDependencies": {
-    "debug": "^2.2.0",
     "metalsmith": "^2.1.0",
     "mocha": "^2.4.5"
   },
