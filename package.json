@@ -1,0 +1,25 @@
+{
+  "name": "metalsmith-metadata-glob",
+  "version": "0.0.1",
+  "description": "Test",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fephil/metalsmith-metadata-glob.git"
+  },
+  "author": "Phil Lennon <enquiry@frontendphil.com> (https://frontendphil.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fephil/metalsmith-metadata-glob/issues"
+  },
+  "homepage": "https://github.com/fephil/metalsmith-metadata-glob#readme",
+  "devDependencies": {
+    "metalsmith": "^2.1.0",
+    "mocha": "^2.4.5"
+  },
+  "dependencies": {
+  }
+}
