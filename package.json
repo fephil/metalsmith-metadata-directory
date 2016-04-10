@@ -1,21 +1,21 @@
 {
-  "name": "metalsmith-metadata-glob",
+  "name": "metalsmith-metadata-directory",
   "version": "0.0.1",
-  "description": "Test",
+  "description": "Add a directory of JSON files for easy use in Metalsmith",
   "main": "lib/index.js",
   "scripts": {
     "test": "mocha"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fephil/metalsmith-metadata-glob.git"
+    "url": "git+https://github.com/fephil/metalsmith-metadata-directory.git"
   },
   "author": "Phil Lennon <enquiry@frontendphil.com> (https://frontendphil.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fephil/metalsmith-metadata-glob/issues"
+    "url": "https://github.com/fephil/metalsmith-metadata-directory/issues"
   },
-  "homepage": "https://github.com/fephil/metalsmith-metadata-glob#readme",
+  "homepage": "https://github.com/fephil/metalsmith-metadata-directory#readme",
   "devDependencies": {
     "debug": "^2.2.0",
     "metalsmith": "^2.1.0",
