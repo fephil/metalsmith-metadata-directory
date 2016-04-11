@@ -1,4 +1,4 @@
-# metalsmith-metadata-directory v0.0.1
+# metalsmith-metadata-directory v0.0.2
 
 [![Build Status](https://travis-ci.org/fephil/metalsmith-metadata-directory.svg?branch=master)](https://travis-ci.org/fephil/metalsmith-metadata-directory)
 [![Dependency Status](https://david-dm.org/fephil/metalsmith-metadata-directory.svg)](https://david-dm.org/fephil/metalsmith-metadata-directory)
@@ -6,9 +6,9 @@
 **A Metalsmith plugin to add a directory of JSON files for use in templates and pages**
 
 * Author: [Phil Lennon](https://frontendphil.com)
-* Source: [github.com/fephil/foley](https://github.com/fephil/foley)
-* Issues and Suggestions: [github.com/fephil/foley/issues](https://github.com/fephil/foley/issues)
-* Download: [https://github.com/fephil/foley/releases](https://github.com/fephil/foley/releases)
+* Source: [github.com/fephil/metalsmith-metadata-directory](https://github.com/fephil/metalsmith-metadata-directory)
+* Issues and Suggestions: [github.com/fephil/metalsmith-metadata-directory/issues](https://github.com/fephil/metalsmith-metadata-directory/issues)
+* Download: [https://github.com/fephil/metalsmith-metadata-directory/releases](https://github.com/fephil/metalsmith-metadata-directory/releases)
 * Twitter: [@frontendphil](https://twitter.com/frontendphil)
 * Email: [enquiry@frontendphil.com](mailto:enquiry@frontendphil.com)
 
