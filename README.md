@@ -1,4 +1,4 @@
-# metalsmith-metadata-directory v0.0.2
+# metalsmith-metadata-directory
 
 [![Build Status](https://travis-ci.org/fephil/metalsmith-metadata-directory.svg?branch=master)](https://travis-ci.org/fephil/metalsmith-metadata-directory)
 [![Dependency Status](https://david-dm.org/fephil/metalsmith-metadata-directory.svg)](https://david-dm.org/fephil/metalsmith-metadata-directory)
