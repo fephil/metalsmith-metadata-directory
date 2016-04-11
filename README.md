@@ -32,7 +32,7 @@ Install the plugin using npm, and simply specify the directory you want to use, 
 {
   "plugins": {
     "metalsmith-metadata-directory": {
-      "directory": "/src/data/**/*.json",
+      "directory": "/src/data/**/*.json"
     }
   }
 }
