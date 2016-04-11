@@ -17,7 +17,7 @@
 
 ## About
 
-This plugin supports selecting a directory of `.json` files using a globbing pattern and makes their contents available to Metalsmiths global metadata. Subdirectories and multiple files are supported.
+This plugin supports selecting a directory of `.json` files using a globbing pattern and makes their contents available to the Metalsmith global metadata. Subdirectories and multiple files are supported.
 
 ## Installation
 
@@ -27,7 +27,7 @@ $ npm install metalsmith-metadata-directory --save-dev
 
 ## CLI Usage
 
-Install the plugin using npm, and simply specify the directory you want to use, along with a globbing pattern.
+Install the plugin using npm, and simply specify the directory you want to use, along with a globbing pattern. Only JSON is currently supported.
 
 ```json
 {
