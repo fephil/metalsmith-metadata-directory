@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/fephil/metalsmith-metadata-directory.svg?branch=master)](https://travis-ci.org/fephil/metalsmith-metadata-directory)
 [![Dependency Status](https://david-dm.org/fephil/metalsmith-metadata-directory.svg)](https://david-dm.org/fephil/metalsmith-metadata-directory)
-[![NPM](https://nodei.co/npm/metalsmith-metadata-directory.png?compact=true)](https://nodei.co/npm/metalsmith-metadata-directory/)
+[![NPM](https://nodei.co/npm/metalsmith-metadata-directory.png?mini=true)](https://nodei.co/npm/metalsmith-metadata-directory/)
 
 **A Metalsmith plugin to add a directory of JSON files for use in templates and pages**
 
