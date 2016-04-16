@@ -27,6 +27,7 @@
     "mocha": "^2.4.5"
   },
   "dependencies": {
+    "async": "^2.0.0-rc.3",
     "glob": "^7.0.3",
     "path": "^0.12.7"
   }
