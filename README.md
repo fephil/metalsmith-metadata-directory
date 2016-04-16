@@ -25,6 +25,10 @@ This plugin supports selecting a directory of `.json` files using a globbing pat
 $ npm install metalsmith-metadata-directory --save-dev
 ```
 
+## Plugin Ordering
+
+it is vital to order Metalsmith plugins correctly. As such, please make sure this plugin is included above metalsmith-layouts and metalsmith-in-place.
+
 ## CLI Usage
 
 Install the plugin using npm, and simply specify the directory you want to use, along with a globbing pattern. Only JSON is currently supported.
@@ -62,7 +66,7 @@ My workflow [Foley](https://github.com/fephil/foley) has an example of this plug
 
 ## Debug mode
 
-This plugin supports debugging. To enable, use the following command:
+This plugin supports debugging output. To enable, use the following command:
 
 `DEBUG=metalsmith-metadata-directory metalsmith`
 
