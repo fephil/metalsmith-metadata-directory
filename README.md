@@ -68,7 +68,9 @@ My workflow [Foley](https://github.com/fephil/foley) has an example of this plug
 
 This plugin supports debugging output. To enable, use the following command:
 
-`DEBUG=metalsmith-metadata-directory metalsmith`
+```
+$ DEBUG=metalsmith-metadata-directory metalsmith
+```
 
 ## Licence
 
