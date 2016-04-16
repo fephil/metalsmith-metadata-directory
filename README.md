@@ -60,6 +60,12 @@ Data is called by referencing the filename without an extension. If there was a 
 
 My workflow [Foley](https://github.com/fephil/foley) has an example of this plugin being used.
 
+## Debug mode
+
+This plugin supports debugging. To enable, use the following command:
+
+`DEBUG=metalsmith-metadata-directory metalsmith`
+
 ## Licence
 
 MIT
