@@ -26,6 +26,7 @@
   },
   "devDependencies": {
     "chai": "3.5.0",
+    "harmonize": "1.4.4",
     "metalsmith": "2.1.0",
     "mocha": "2.5.3"
   },

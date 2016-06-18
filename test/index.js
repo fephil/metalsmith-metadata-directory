@@ -1,3 +1,5 @@
+require('harmonize')()
+
 var should = require('chai').should()
 var Metalsmith = require('metalsmith')
 var metadata = require('../lib/index.js')
