@@ -48,7 +48,18 @@ it('should error if a JSON file is malformed', function (done) {
   metalsmith.build(function(err) {
     errMessage = String(err);
     err.should.be.an('error')
-    errMessage.should.equal('Error: Malformed data in example.json')
+    errMessage.should.equal('Error: Malformed data in: example.json')
+
+    done() // don't return the error to metalsmith
+  })
+})
+
+it('should error if a key is already used', function (done) {
+  var metalsmith = Metalsmith('test/fixtures/json-duplicate').use(metadata({ directory: 'test/fixtures/json-duplicate/src/**/*.json' }))
+  metalsmith.build(function(err) {
+    errMessage = String(err);
+    err.should.be.an('error')
+    errMessage.should.equal('Error: Duplicate file name: example.json')
 
     done() // don't return the error to metalsmith
   })
