@@ -6,7 +6,9 @@ it('should error if the JSON file is malformed', function (done) {
   var metalsmith = Metalsmith('test/fixtures/json-malformed').use(metadata({ directory: 'test/fixtures/json-malformed/src/**/*.json' }))
   metalsmith.build(function(err) {
     errMessage = String(err);
+    err.should.be.an('error')
     errMessage.should.equal('Error: Malformed data in example.json')
+
     done() // don't return the error to metalsmith
   })
 })
