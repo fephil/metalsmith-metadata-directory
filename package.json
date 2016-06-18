@@ -22,13 +22,13 @@
     "pages"
   ],
   "devDependencies": {
-    "metalsmith": "^2.1.0",
-    "mocha": "^2.4.5"
+    "metalsmith": "2.1.0",
+    "mocha": "2.5.3"
   },
   "dependencies": {
-    "async": "^2.0.0-rc.3",
-    "debug": "^2.2.0",
-    "glob": "^7.0.3",
-    "path": "^0.12.7"
+    "async": "2.0.0-rc.6",
+    "debug": "2.2.0",
+    "glob": "7.0.4",
+    "path": "0.12.7"
   }
 }
