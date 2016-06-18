@@ -21,6 +21,9 @@
     "templates",
     "pages"
   ],
+  "scripts": {
+    "test": "mocha"
+  },
   "devDependencies": {
     "chai": "3.5.0",
     "metalsmith": "2.1.0",
