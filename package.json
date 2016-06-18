@@ -1,6 +1,6 @@
 {
   "name": "metalsmith-metadata-directory",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "A Metalsmith plugin to add a directory of JSON files for use in templates and pages",
   "main": "lib/index.js",
   "repository": {

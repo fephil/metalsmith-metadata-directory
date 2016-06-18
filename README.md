@@ -27,7 +27,7 @@ $ npm install metalsmith-metadata-directory --save-dev
 
 ## Plugin Ordering
 
-it is vital to order Metalsmith plugins correctly. As such, please make sure this plugin is included above metalsmith-layouts and metalsmith-in-place.
+It is vital to order Metalsmith plugins correctly. As such, please make sure this plugin is included above metalsmith-layouts and metalsmith-in-place.
 
 ## CLI Usage
 
@@ -56,7 +56,7 @@ metalsmith.use(metadata({
 
 ## Usage within Metalsmith
 
-Data is called by referencing the filename without an extension. If there was a global.json file and Handlebars, the reference in your page or template would look like:
+Data is called by referencing the filename without an extension. If there was a global.json file containing a url property, the reference in your page or template would look like:
 
 ```js
 {{global.url}}
