@@ -42,9 +42,9 @@ Add the plugin to your metalsmith.json file:
 }
 ```
 
-### With Javascript
+### With JavaScript
 
-Pass the plugin into metalsmith.use
+Pass the plugin into metalsmith.use:
 
 ```js
 var metalsmith = require('metalsmith')
@@ -69,7 +69,7 @@ Data is called by referencing the filename without an extension. If there was a 
 
 My workflow [Garrus](https://github.com/fephil/garrus) has an example of this plugin being used.
 
-## Debug mode
+## Debug Mode
 
 This plugin supports debugging output. To enable, use the following command when running Metalsmith:
 
