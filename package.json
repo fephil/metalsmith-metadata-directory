@@ -1,13 +1,13 @@
 {
   "name": "metalsmith-metadata-directory",
-  "version": "1.0.0",
-  "description": "A Metalsmith plugin to add a directory of JSON files for use in templates and pages",
+  "version": "1.0.1",
+  "description": "A Metalsmith plugin to add a directory of JSON files for use as global metadata in templates, partials and pages",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fephil/metalsmith-metadata-directory.git"
   },
-  "author": "Phil Lennon <enquiry@frontendphil.com> (https://frontendphil.com)",
+  "author": "Phil Lennon <enquiry@frontendphil.com> (https://www.frontendphil.com)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/fephil/metalsmith-metadata-directory/issues"
@@ -19,6 +19,7 @@
     "json",
     "glob",
     "templates",
+    "partials",
     "pages"
   ],
   "scripts": {
