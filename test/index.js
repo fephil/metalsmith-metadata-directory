@@ -5,7 +5,7 @@ var Metalsmith = require('metalsmith')
 var metadata = require('../lib/index.js')
 
 it('should read a single JSON file and put into metalsmith.metadata()', function (done) {
-  var metalsmith = Metalsmith('test/fixtures/json-single').use(metadata({ directory: 'test/fixtures/json-single/src/**/*.json' }))
+  var metalsmith = Metalsmith('test/fixtures/json-single').use(metadata({ directory: 'src/**/*.json' }))
   metalsmith.build(function(err) {
     metalsmith.metadata().should.deep.equal({ example: { text: 'Text from a json file' } })
 
