@@ -1,6 +1,6 @@
 {
   "name": "metalsmith-metadata-directory",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "A Metalsmith plugin to add a directory of JSON files for use as global metadata in templates, partials and pages",
   "main": "lib/index.js",
   "repository": {
@@ -26,15 +26,15 @@
     "test": "mocha"
   },
   "devDependencies": {
-    "chai": "3.5.0",
+    "chai": "4.1.2",
     "harmonize": "2.0.0",
     "metalsmith": "2.3.0",
-    "mocha": "3.2.0"
+    "mocha": "4.0.1"
   },
   "dependencies": {
-    "async": "2.1.5",
-    "debug": "2.6.3",
-    "glob": "7.1.1",
-    "js-yaml": "^3.10.0"
+    "async": "2.5.0",
+    "debug": "3.1.0",
+    "glob": "7.1.2",
+    "js-yaml": "3.10.0"
   }
 }
