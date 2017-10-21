@@ -17,8 +17,34 @@ it('should read a single JSON file and put into metalsmith.metadata()', function
   })
 })
 
+it('should read a single YAML file and put into metalsmith.metadata()', function (done) {
+  var metalsmith = Metalsmith('test/fixtures/yaml-single').use(metadata({ directory: 'src/**/*.yml' }))
+  metalsmith.build(function(err) {
+    metalsmith.metadata().should.deep.equal({ example: { text: 'Text from a json file' } })
+
+    if (err) {
+      return done(err)
+    }
+
+    done()
+  })
+})
+
 it('should read multiple JSON files and put into metalsmith.metadata()', function (done) {
   var metalsmith = Metalsmith('test/fixtures/json-multiple').use(metadata({ directory: 'test/fixtures/json-multiple/src/**/*.json' }))
+  metalsmith.build(function(err) {
+    metalsmith.metadata().should.deep.equal({ example: { text: 'Text from a json file' }, site: { url: 'http://test.dev' } })
+
+    if (err) {
+      return done(err)
+    }
+
+    done()
+  })
+})
+
+it('should read multiple YAML files and put into metalsmith.metadata()', function (done) {
+  var metalsmith = Metalsmith('test/fixtures/yaml-multiple').use(metadata({ directory: 'test/fixtures/yaml-multiple/src/**/*.yml' }))
   metalsmith.build(function(err) {
     metalsmith.metadata().should.deep.equal({ example: { text: 'Text from a json file' }, site: { url: 'http://test.dev' } })
 

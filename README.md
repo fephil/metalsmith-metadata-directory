@@ -5,7 +5,7 @@
 [![Build Status](https://travis-ci.org/fephil/metalsmith-metadata-directory.svg?branch=master)](https://travis-ci.org/fephil/metalsmith-metadata-directory)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/fephil/metalsmith-metadata-directory/master/LICENSE)
 
-> A Metalsmith plugin to add a directory of JSON files for use as global metadata in templates, partials and pages.
+> A Metalsmith plugin to add a directory of JSON and/or YAML files for use as global metadata in templates, partials and pages.
 
 * Author: [Phil Lennon](https://frontendphil.com)
 * Source: [github.com/fephil/metalsmith-metadata-directory](https://github.com/fephil/metalsmith-metadata-directory)
@@ -18,7 +18,7 @@
 
 ## About
 
-This plugin supports adding directory of `.json` files and makes their contents available to the Metalsmith global metadata without needing to declare multiple files or file names. Subdirectories and multiple files are supported by using a globbing pattern.
+This plugin supports adding directory of `.json` & `.yml` files and makes their contents available to the Metalsmith global metadata without needing to declare multiple files or file names. Subdirectories and multiple files are supported by using a globbing pattern.
 
 ## Installation
 
@@ -36,7 +36,7 @@ Add the plugin to your metalsmith.json file:
 {
   "plugins": {
     "metalsmith-metadata-directory": {
-      "directory": "/src/data/**/*.json"
+      "directory": "/src/data/**/*.json" // or: "/src/data/**/*.yml"
     }
   }
 }
@@ -51,7 +51,9 @@ var metalsmith = require('metalsmith')
 var metadata = require('metalsmith-metadata-directory')
 
 metalsmith.use(metadata({
-  directory: '/src/data/**/*.json'
+  directory: '/src/data/**/*.json',
+  // or for YAML respectively; be sure to use 'yml' as file suffix
+  directory: '/src/data/**/*.yml'
 }));
 ```
 
