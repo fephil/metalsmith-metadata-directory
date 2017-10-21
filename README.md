@@ -61,7 +61,7 @@ metalsmith.use(metadata({
 }));
 ```
 
-## Plugin Ordering
+## Plugin ordering
 
 It is vital to order Metalsmith plugins correctly. Please make sure this plugin is included above metalsmith-layouts and metalsmith-in-place and any other plugin which may need your metadata.
 
@@ -75,7 +75,7 @@ Data is called by referencing the filename without an extension. If there was a 
 
 My workflow [Garrus](https://github.com/fephil/garrus) has an example of this plugin being used.
 
-## Debug Mode
+## Debug mode
 
 This plugin supports debugging output. To enable, use the following command when running Metalsmith:
 
