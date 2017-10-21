@@ -20,6 +20,10 @@
 
 This plugin supports adding directory of `.json` & `.yml` files and makes their contents available to the Metalsmith global metadata without needing to declare multiple files or file names. Subdirectories and multiple files are supported by using a globbing pattern.
 
+## Node support
+
+This plugin is supported and tested against all the current Node LTS versions (4, 6 & 8). This plugin should work on Node 0.12 but is not supported for this version.
+
 ## Installation
 
 Install the plugin using npm, and specify the directory of metadata files you want to use, along with a globbing pattern. Currently, only JSON files are supported.
