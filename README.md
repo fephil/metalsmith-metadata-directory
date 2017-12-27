@@ -36,7 +36,7 @@ $ npm install metalsmith-metadata-directory --save-dev
 
 Add the plugin to your metalsmith.json file:
 
-```json
+```js
 {
   "plugins": {
     "metalsmith-metadata-directory": {
