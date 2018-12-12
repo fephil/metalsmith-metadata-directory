@@ -1,5 +1,3 @@
-require('harmonize')() // Node 0.12 fix
-
 var should = require('chai').should()
 var Metalsmith = require('metalsmith')
 var metadata = require('../lib/index.js')
