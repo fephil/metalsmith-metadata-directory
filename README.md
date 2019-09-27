@@ -1,7 +1,6 @@
 # metalsmith-metadata-directory
 
 [![npm](https://img.shields.io/npm/v/metalsmith-metadata-directory.svg)](https://www.npmjs.com/package/metalsmith-metadata-directory)
-[![Maintenance](https://img.shields.io/maintenance/yes/2019.svg)]()
 [![Build Status](https://travis-ci.org/fephil/metalsmith-metadata-directory.svg?branch=master)](https://travis-ci.org/fephil/metalsmith-metadata-directory)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/fephil/metalsmith-metadata-directory/master/LICENSE)
 
