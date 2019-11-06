@@ -54,6 +54,19 @@ it('should read multiple YAML files and put into metalsmith.metadata()', functio
   })
 })
 
+it('should read multiple YAML files with .yaml suffix and put into metalsmith.metadata()', function (done) {
+  var metalsmith = Metalsmith('test/fixtures/yaml-dot-yaml').use(metadata({ directory: 'test/fixtures/yaml-dot-yaml/src/**/*.yaml' }))
+  metalsmith.build(function(err) {
+    metalsmith.metadata().should.deep.equal({ example: { text: 'Text from a json file' }, site: { url: 'http://test.dev' } })
+
+    if (err) {
+      return done(err)
+    }
+
+    done()
+  })
+})
+
 it('should read multiple JSON files, including subdirctories and put into metalsmith.metadata()', function (done) {
   var metalsmith = Metalsmith('test/fixtures/json-subdirectory').use(metadata({ directory: 'test/fixtures/json-subdirectory/src/**/*.json' }))
   metalsmith.build(function(err) {
@@ -64,6 +77,17 @@ it('should read multiple JSON files, including subdirctories and put into metals
     }
 
     done()
+  })
+})
+
+it('should error if a YAML file is malformed', function (done) {
+  var metalsmith = Metalsmith('test/fixtures/yaml-malformed').use(metadata({ directory: 'test/fixtures/yaml-malformed/src/**/*.yaml' }))
+  metalsmith.build(function(err) {
+    errMessage = String(err);
+    err.should.be.an('error')
+    errMessage.should.equal('Error: Malformed YAML in: example.yaml')
+
+    done() // don't return the error to metalsmith
   })
 })
 

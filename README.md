@@ -45,7 +45,7 @@ Add the plugin to your metalsmith.json file:
 }
 ```
 
-**NOTE:** .yml file extension is also supported.
+**NOTE:** .yml and .yaml file extensions are also supported.
 
 ### With JavaScript
 
@@ -57,7 +57,7 @@ var metadata = require('metalsmith-metadata-directory')
 
 metalsmith.use(metadata({
   directory: '/src/data/**/*.json',
-  // or for YAML respectively; be sure to use 'yml' as file suffix
+  // or for YAML respectively; be sure to use 'yml' or 'yaml' as file suffix
   directory: '/src/data/**/*.yml'
 }));
 ```
