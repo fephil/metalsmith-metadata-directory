@@ -17,7 +17,7 @@
 
 ## About
 
-This plugin supports adding a directory of `.json` & `.yml` files and makes their contents available to the Metalsmith global metadata without needing to declare multiple file names. Subdirectories and multiple files are supported by using a globbing pattern.
+This plugin supports adding a directory of `.json` & `.yml/.yaml` files and makes their contents available to the Metalsmith global metadata, without needing to declare multiple file names. Subdirectories and multiple files are supported by using a globbing pattern.
 
 ## Node support
 
