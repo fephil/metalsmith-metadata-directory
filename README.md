@@ -21,7 +21,7 @@ This plugin supports adding a directory of `.json` & `.yml/.yaml` files and make
 
 ## Node support
 
-This plugin is supported and tested against all the current Node LTS versions (6, 8 & 10). This plugin should work on Node 0.12 & 4 but is not supported for these versions.
+This plugin is supported and tested against all the current Node LTS versions (10 & 12). This plugin should work on Node 6 & 8 but is not supported for these versions.
 
 ## Installation
 
