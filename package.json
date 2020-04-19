@@ -1,6 +1,6 @@
 {
   "name": "metalsmith-metadata-directory",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A Metalsmith plugin to add a directory of JSON and/or YAML files for use as global metadata in templates, partials and pages.",
   "main": "lib/index.js",
   "repository": {
