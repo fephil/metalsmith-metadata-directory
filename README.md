@@ -6,12 +6,12 @@
 
 > A Metalsmith plugin to add a directory of JSON and/or YAML files for use as global metadata in templates, partials and pages.
 
-* Author: [Phil Lennon](https://frontendphil.com)
+* Author: [Phil Lennon](https://phil.dev)
 * Source: [github.com/fephil/metalsmith-metadata-directory](https://github.com/fephil/metalsmith-metadata-directory)
 * Issues & Suggestions: [github.com/fephil/metalsmith-metadata-directory/issues](https://github.com/fephil/metalsmith-metadata-directory/issues)
 * Releases: [https://github.com/fephil/metalsmith-metadata-directory/releases](https://github.com/fephil/metalsmith-metadata-directory/releases)
 * Twitter: [@frontendphil](https://twitter.com/frontendphil)
-* Email: [enquiry@frontendphil.com](mailto:enquiry@frontendphil.com)
+* Email: [enquiry@phil.dev](mailto:enquiry@phil.dev)
 
 ***
 
