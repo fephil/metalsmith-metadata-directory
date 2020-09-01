@@ -82,6 +82,26 @@ This plugin supports debugging output. To enable, use the following command when
 $ DEBUG=metalsmith-metadata-directory metalsmith
 ```
 
+## Using with metalsmith auto-reload 
+
+This plugin check for duplicate key, as most of auto-reload plugin (like metalsmith-watch) will keep the metadata of the previous executions. The error must be disabled in this case.
+
+A valid usage with metalsmith-watch : 
+```
+metalsmith.use(metadata({
+  directory: '/src/data/**/*.json',
+  returnErrorOnDuplicate: false
+}));
+```
+
+It's homewer recommand to use this parameter in dev mode only. : 
+```
+metalsmith.use(metadata({
+  directory: '/src/data/**/*.json',
+  returnErrorOnDuplicate: false
+}));
+```
+
 ## Licence
 
 MIT
