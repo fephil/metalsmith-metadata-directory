@@ -94,13 +94,7 @@ metalsmith.use(metadata({
 }));
 ```
 
-It's homewer recommand to use this parameter in dev mode only. : 
-```
-metalsmith.use(metadata({
-  directory: '/src/data/**/*.json',
-  returnErrorOnDuplicate: false
-}));
-```
+Be aware this configuration is recommand only in dev-mode. The duplicate keys will not be checked otherwise.
 
 ## Licence
 
